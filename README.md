@@ -1,2 +1,2 @@
-# temp-notes
-Temporary notes
+# notes
+ notes
