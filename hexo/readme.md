@@ -10,8 +10,8 @@ gitalk config:
 <div id="gitalk-container"></div>cript>
 
 const gitalk = new Gitalk({
-  clientID: '720e7ae0cd96a6495b98',
-  clientSecret: '720f3f575fe0562282aa266cbff348256b79ceb2',
+  clientID: '',
+  clientSecret: '',
   repo: 'FrogView.github.io',
   owner: 'FrogView',
   admin: ['FrogView'],
