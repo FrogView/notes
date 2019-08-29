@@ -19,6 +19,7 @@ git ignore csharp >> .gitignore
 git ignore list
 ```
 
-查看本地分支： git branch
-查看远程分支：git branch -r
-查看所有分支(包括远程和本地分支）： git branch -a
+#### git 分支操作
+* 查看本地分支： git branch
+* 查看远程分支：git branch -r
+* 查看所有分支(包括远程和本地分支）： git branch -a
