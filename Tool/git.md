@@ -26,3 +26,6 @@ git ignore list
 * 创建分支
   * 远程创建一个和本地同名的分支: git push --set-upstream origin branch_name
   * 本地创建一个和远程同名的分支: git checkout --track origin/branch_name
+* 合并分支（将 iss53 合并到 master ）
+  $ git checkout master
+  $ git merge iss53
