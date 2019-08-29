@@ -24,6 +24,7 @@ git ignore list
 * 查看远程分支：git branch -r
 * 查看所有分支(包括远程和本地分支）： git branch -a
 * 创建分支
+  * 本地创建分支: git branch branch_name
   * 远程创建一个和本地同名的分支: git push --set-upstream origin branch_name
   * 本地创建一个和远程同名的分支: git checkout --track origin/branch_name
 * 合并分支（将 iss53 合并到 master ）
