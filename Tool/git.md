@@ -23,3 +23,6 @@ git ignore list
 * 查看本地分支： git branch
 * 查看远程分支：git branch -r
 * 查看所有分支(包括远程和本地分支）： git branch -a
+* 创建分支
+
+  ![创建分支](https://github.com/FrogView/notes/blob/master/git%20branch%20help.png)
