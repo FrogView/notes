@@ -24,3 +24,9 @@ git ignore list
 * 合并分支（将 iss53 合并到 master ）
   $ git checkout master
   $ git merge iss53
+#### Git pull 强制拉取并覆盖本地代码
+```
+git fetch --all
+git reset --hard origin/master
+git pull
+```
