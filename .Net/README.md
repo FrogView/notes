@@ -3,12 +3,11 @@
 ##### RestSharp example 
 ``` csharp
 var client = new RestClient(BaseUrl);
-var request = new RestRequest($"GetStrictWER_Batch?locale={locale}", Method.POST);
-request.AddHeader("x-functions-key", Secret);
+var request = new RestRequest($"Get?id={id}", Method.POST);
+request.AddHeader("key", key);
 
-string recoData = GetRecoData(utteranceResults, recognitionType);
 
-request.AddParameter("application/json", recoData, ParameterType.RequestBody);
+request.AddParameter("application/json", "data", ParameterType.RequestBody);
 
 // easy async support
 var response = await client.ExecuteTaskAsync(request);
