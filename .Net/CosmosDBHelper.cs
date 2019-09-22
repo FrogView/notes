@@ -12,11 +12,9 @@ namespace CosmosDBFunc
 {
     public class CosmosDBHelper<T>
     {
-        private static readonly string Endpoint = "";
-        private static readonly string Key = "";
-        
-        private string DatabaseId = "Results";
-        private string CollectionId = "";//RunResults,UtteranceResults
+   
+        private string DatabaseId = "";
+        private string CollectionId = "";
         public DocumentClient DbClient { get; set; }
         public CosmosDBHelper(string databaseId,string collectionId)
         {
