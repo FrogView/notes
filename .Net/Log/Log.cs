@@ -1,19 +1,15 @@
-using log4net;
-using log4net.Config;
-using Microsoft.WindowsAzure.Storage.Blob.Protocol;
-using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+    using log4net;
+    using log4net.Config;
+    using System;
+    using System.Collections.Generic;
+    using System.Diagnostics;
+    using System.IO;
+    using System.Linq;
+    using System.Reflection;
+    using System.Runtime.CompilerServices;
+    using System.Text;
+    using System.Threading.Tasks;
 
-namespace Common
-{
     public static class Log
     {
         private static readonly bool isInit = false;
@@ -61,4 +57,3 @@ namespace Common
             return logger;
         }
     }
-}
