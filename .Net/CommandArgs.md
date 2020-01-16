@@ -1,4 +1,12 @@
 ``` csharp
+//用法示例
+CommandArgs commandArg = CommandLine.Parse(args);
+List<string> lparams = commandArg.Params;
+
+Dictionary<string, string> argPairs = commandArg.ArgPairs;
+```
+
+``` csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
