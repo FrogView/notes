@@ -30,5 +30,5 @@ git fetch --all
 git reset --hard origin/master
 git pull
 ```
-#### [Git 打包文件](Tool/Git/Git打包文件.md)
+#### [Git 打包文件](Git/Git打包文件.md)
 
